@@ -11,15 +11,18 @@ CONFIG += c++11
 SOURCES += \
     legendary.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    porownaj.cpp
 
 HEADERS += \
     legendary.h \
-    mainwindow.h
+    mainwindow.h \
+    porownaj.h
 
 FORMS += \
     legendary.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    porownaj.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

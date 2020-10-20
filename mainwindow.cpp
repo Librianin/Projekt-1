@@ -21,3 +21,10 @@ void MainWindow::on_LegendaryButton_clicked()
     legendary =new Legendary();
     legendary -> show();
 }
+
+
+void MainWindow::on_Porownaj_clicked()
+{
+    porownaj = new Porownaj();
+    porownaj -> show();
+}
